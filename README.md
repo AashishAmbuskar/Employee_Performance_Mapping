@@ -15,6 +15,7 @@ Dataset description:
 
 emp_record_table: It contains the information of all the employees.
 
+
 ●	EMP_ID – ID of the employee
 
 ●	FIRST_NAME – First name of the employee
@@ -45,12 +46,12 @@ emp_record_table: It contains the information of all the employees.
 
 Proj_table: It contains information about the projects.
 
+
 ●	PROJECT_ID – ID for the project
 
 ●	PROJ_Name – Name of the project
 
 ●	DOMAIN – Field of the project
-
 
 ●	START_DATE – Day the project began
 
@@ -62,6 +63,7 @@ Proj_table: It contains information about the projects.
 
 
 Data_science_team: It contains information about all the employees in the Data Science team.
+
 
 ●	EMP_ID – ID of the employee
 
@@ -83,15 +85,20 @@ Data_science_team: It contains information about all the employees in the Data S
 
 
 
+
 The task to be performed: 
+
 
 1.	Create a database named employee, then import data_science_team.csv proj_table.csv and emp_record_table.csv into the employee database from the given resources.
 2.	Create an ER diagram for the given employee database.
 3.	Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, and DEPARTMENT from the employee record table, and make a list of employees and details of their department.
 
-4.	Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPARTMENT, and EMP_RATING if the EMP_RATING is: 
+4.	Write a query to fetch EMP_ID, FIRST_NAME, LAST_NAME, GENDER, DEPARTMENT, and EMP_RATING if the EMP_RATING is:
+
 ●	less than two
+
 ●	greater than four 
+
 ●	between two and four
 
 6.	Write a query to concatenate the FIRST_NAME and the LAST_NAME of employees in the Finance department from the employee table and then give the resultant column alias as NAME.
@@ -106,10 +113,15 @@ The task to be performed:
 
 15.	Write a query using stored functions in the project table to check whether the job profile assigned to each employee in the data science team matches the organization’s set standard.
 The standard being:
+
 For an employee with experience less than or equal to 2 years assign 'JUNIOR DATA SCIENTIST',
+
 For an employee with the experience of 2 to 5 years assign 'ASSOCIATE DATA SCIENTIST',
+
 For an employee with the experience of 5 to 10 years assign 'SENIOR DATA SCIENTIST',
+
 For an employee with the experience of 10 to 12 years assign 'LEAD DATA SCIENTIST',
+
 For an employee with the experience of 12 to 16 years assign 'MANAGER'.
 
 15.	Create an index to improve the cost and performance of the query to find the employee whose FIRST_NAME is ‘Eric’ in the employee table after checking the execution plan.
